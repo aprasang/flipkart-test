@@ -6,8 +6,8 @@
       <class name="com.flipkart.test.functional.TestHomePageActionsUS03">
         <methods>
           <include name="preConditions"/>
-          <include name="testRevengeTC03"/>
           <include name="postCondition"/>
+          <include name="testRewardsTC01"/>
         </methods>
       </class> <!-- com.flipkart.test.functional.TestHomePageActionsUS03 -->
     </classes>

@@ -35,6 +35,7 @@ public class TestHomePageActionsUS03 {
 
 		DropdownMenu.HandlingDropdownMenu(home.getMyAccountLink(), driver);
 		home.getMyRewardsLink().click();
+		home.waithomePage();
 		DropdownMenu.HandlingDropdownMenu(home.getMyAccountLink(), driver);
 		home.getLogoutButton();
 	}
@@ -51,6 +52,7 @@ public class TestHomePageActionsUS03 {
 
 		DropdownMenu.HandlingDropdownMenu(home.getMyAccountLink(), driver);
 		home.getWishListLink().click();
+		home.waithomePage();
 		DropdownMenu.HandlingDropdownMenu(home.getMyAccountLink(), driver);
 		home.getLogoutButton();
 	}
